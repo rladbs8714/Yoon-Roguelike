@@ -1,0 +1,556 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ko' Physical Memory: 32703 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/YR/Yoon-Roguelike/Yoon Roguelike
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65429
+Successfully changed project path to: D:/UnityProject/YR/Yoon-Roguelike/Yoon Roguelike
+D:/UnityProject/YR/Yoon-Roguelike/Yoon Roguelike
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 120.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/YR/Yoon-Roguelike/Yoon Roguelike/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012021 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 108.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Domain Reload Profiling:
+	ReloadAssembly (656ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007978 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 113.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1012ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4308 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (223.6 KB). Loaded Objects now: 4744.
+Memory consumption went from 161.0 MB to 160.8 MB.
+Total: 3.163900 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.240000 ms MarkObjects: 2.473700 ms  DeleteObjects: 0.150500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 518816.340742 seconds.
+  path: Assets/30. Prefabs/Units/Player/Dwarf.prefab
+  artifactKey: Guid(84227c638a990d149bdf37990b745eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/30. Prefabs/Units/Player/Dwarf.prefab using Guid(84227c638a990d149bdf37990b745eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5937eb86f4d08614a259f980ca662d6f') in 0.117459 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007126 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1113ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4290 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (190.8 KB). Loaded Objects now: 4754.
+Memory consumption went from 164.0 MB to 163.9 MB.
+Total: 3.530100 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.274600 ms MarkObjects: 2.795800 ms  DeleteObjects: 0.135300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007883 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4290 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (190.9 KB). Loaded Objects now: 4757.
+Memory consumption went from 164.1 MB to 163.9 MB.
+Total: 2.955300 ms (FindLiveObjects: 0.287400 ms CreateObjectMapping: 0.318400 ms MarkObjects: 2.211300 ms  DeleteObjects: 0.137200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007158 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\YR\Yoon-Roguelike\Yoon Roguelike\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4290 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (190.8 KB). Loaded Objects now: 4760.
+Memory consumption went from 164.1 MB to 163.9 MB.
+Total: 3.034200 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.307400 ms MarkObjects: 2.297600 ms  DeleteObjects: 0.146700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7408.890666 seconds.
+  path: Assets/40. Resources/_Weaponry/Rpg Weapons List of Icons.txt
+  artifactKey: Guid(e224cec857ba1d244af1d5815203aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/_Weaponry/Rpg Weapons List of Icons.txt using Guid(e224cec857ba1d244af1d5815203aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5904120f7939362026e1b8f634e91b5') in 0.217713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.775368 seconds.
+  path: Assets/40. Resources/Creatures/Creatures_v3.0/CommercialLicense.txt
+  artifactKey: Guid(ca898a8e521b9624f9bf226d58cfddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Creatures/Creatures_v3.0/CommercialLicense.txt using Guid(ca898a8e521b9624f9bf226d58cfddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21405a47c9a08608ea1753f2183a6cd') in 0.014704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.945778 seconds.
+  path: Assets/40. Resources/Creatures/Creatures_v3.0/Creatures_Assets/Beasts/_Shadows
+  artifactKey: Guid(459b0da567483544c8cbb88fc34de759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Creatures/Creatures_v3.0/Creatures_Assets/Beasts/_Shadows using Guid(459b0da567483544c8cbb88fc34de759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc831212ebb764845f64da062613140') in 0.006208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.180528 seconds.
+  path: Assets/40. Resources/DwarvenKingdom/Acknowledgment.txt
+  artifactKey: Guid(533d3f27a3ee8014aa0f4e2c5f0880f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/DwarvenKingdom/Acknowledgment.txt using Guid(533d3f27a3ee8014aa0f4e2c5f0880f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0efeddfc99bc7004305871567f1b9a') in 0.008512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541452 seconds.
+  path: Assets/40. Resources/DwarvenKingdom/Patreon_Minifantasy.url
+  artifactKey: Guid(5e64bc5ef9a4ad142a827a64e6b6264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/DwarvenKingdom/Patreon_Minifantasy.url using Guid(5e64bc5ef9a4ad142a827a64e6b6264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5792ca0a2ed465b87be64771d24a978b') in 0.118807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.132663 seconds.
+  path: Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial_Version/CommercialLicense.txt
+  artifactKey: Guid(65a4d7512529c7b4e8ea18c0bd31edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial_Version/CommercialLicense.txt using Guid(65a4d7512529c7b4e8ea18c0bd31edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b8b405541b12399ba2bd163900e57') in 0.002772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.711924 seconds.
+  path: Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects
+  artifactKey: Guid(a43c48e81e58f31468755c6097518e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects using Guid(a43c48e81e58f31468755c6097518e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5e742bb4ed7cbe82466b09dfee6d3f') in 0.006780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.595018 seconds.
+  path: Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects/Acknowledgment.txt
+  artifactKey: Guid(1265f6e6947dd2b41965925a7c5ca9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects/Acknowledgment.txt using Guid(1265f6e6947dd2b41965925a7c5ca9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13a388da342ffd5c92768138975ead5') in 0.004273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.581793 seconds.
+  path: Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects/Magic_Weapons_And_Effects_Assets
+  artifactKey: Guid(9bdf7d20e2b631748a7d10d7c40d75b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects/Magic_Weapons_And_Effects_Assets using Guid(9bdf7d20e2b631748a7d10d7c40d75b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee53b786f9e72224afc33589b103b75') in 0.007074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.033050 seconds.
+  path: Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects/Magic_Weapons_And_Effects_Assets/GeneralInfo.txt
+  artifactKey: Guid(08affb4dfbc31ad45910ceb100a5e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Magic_Weapons_And_Effects/Weapons_And_Effects/Magic_Weapons_And_Effects_Assets/GeneralInfo.txt using Guid(08affb4dfbc31ad45910ceb100a5e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389dd4820ee39fc27c87a3f7888489df') in 0.007183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.780497 seconds.
+  path: Assets/40. Resources/Minifantasy_Builders/Builders_v1.0
+  artifactKey: Guid(97b2c5a8bff5dd941894b5018ee730a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Builders/Builders_v1.0 using Guid(97b2c5a8bff5dd941894b5018ee730a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2132990c565eb10ec92b380a07a5ec') in 0.006761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.617089 seconds.
+  path: Assets/40. Resources/Minifantasy_Builders/Builders_v1.0/Acknowledgment.txt
+  artifactKey: Guid(774e8120056b40d46b4a4c2c26e91cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Builders/Builders_v1.0/Acknowledgment.txt using Guid(774e8120056b40d46b4a4c2c26e91cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89058249794f80e9c5c62262ccca31c4') in 0.003979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.118677 seconds.
+  path: Assets/40. Resources/Minifantasy_Heroes/Heroes II/Acknowledgment.txt
+  artifactKey: Guid(2e5a2c2b75700b84da1c9b9286049d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Heroes/Heroes II/Acknowledgment.txt using Guid(2e5a2c2b75700b84da1c9b9286049d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc74651bcfb3d2525aa32dae51cebaf7') in 0.003233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.072692 seconds.
+  path: Assets/40. Resources/Minifantasy_Mounts/Mounts_v1.0/Acknowledgment.txt
+  artifactKey: Guid(44fd2ebaf6ff9b046b02ecd3501b380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Mounts/Mounts_v1.0/Acknowledgment.txt using Guid(44fd2ebaf6ff9b046b02ecd3501b380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecad52bb10dde5cbb7f5a127bfceafb2') in 0.003156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.334012 seconds.
+  path: Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife
+  artifactKey: Guid(8b718f68872977e4da869e05c10eacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife using Guid(8b718f68872977e4da869e05c10eacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ca72b435b038fd605af28c4d893f9e') in 0.010923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480131 seconds.
+  path: Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife/Acknowledgment.txt
+  artifactKey: Guid(35487c8d7f0a146439457ce45203e104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife/Acknowledgment.txt using Guid(35487c8d7f0a146439457ce45203e104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452c895197a01dc2aabdf657e2ebd505') in 0.004292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.988597 seconds.
+  path: Assets/40. Resources/UserInterface/UserInterface_v1.0/Acknowledgment.txt
+  artifactKey: Guid(b3d9ccaf546a1ff47bc209ea0c0dc243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/UserInterface/UserInterface_v1.0/Acknowledgment.txt using Guid(b3d9ccaf546a1ff47bc209ea0c0dc243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febffbe1f0a502769dfdfd755b202cdb') in 0.003430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.705814 seconds.
+  path: Assets/40. Resources/Weapons/Weapons_v2.2/Acknowledgment.txt
+  artifactKey: Guid(32fc042401ef23a45b92d5415fa245d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Weapons/Weapons_v2.2/Acknowledgment.txt using Guid(32fc042401ef23a45b92d5415fa245d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efea957d1bb14026b11e6dd9b7c4a681') in 0.002782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778588 seconds.
+  path: Assets/40. Resources/Weapons/Weapons_v2.2/Patreon_Minifantasy.url
+  artifactKey: Guid(423d981550848924db6cb45f93abc397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Weapons/Weapons_v2.2/Patreon_Minifantasy.url using Guid(423d981550848924db6cb45f93abc397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edad1f004849880eeefdee3fb87a1e8') in 0.005993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.593436 seconds.
+  path: Assets/40. Resources/Weapons/Weapons_v2.2/Weapons
+  artifactKey: Guid(38088a8e4eb528d479260c90d6e68e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Weapons/Weapons_v2.2/Weapons using Guid(38088a8e4eb528d479260c90d6e68e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0a9569249172b04fad47aed9e8a4d1') in 0.005595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.651202 seconds.
+  path: Assets/40. Resources/Weapons/Weapons
+  artifactKey: Guid(bf0ad5686466cbc4fa8eb2d723a16ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Weapons/Weapons using Guid(bf0ad5686466cbc4fa8eb2d723a16ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab22aa53486caae449814baf293235f') in 0.002036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.599492 seconds.
+  path: Assets/40. Resources/UserInterface/UserInterface
+  artifactKey: Guid(0fb58b6e3f726eb42b320bb6a4b149ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/UserInterface/UserInterface using Guid(0fb58b6e3f726eb42b320bb6a4b149ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f955060b2e82471688a300ce91d480') in 0.008227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.527609 seconds.
+  path: Assets/40. Resources/UserInterface/UserInterface/Userinterface
+  artifactKey: Guid(aa1a154b70452fc47b4e9900f326a1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/UserInterface/UserInterface/Userinterface using Guid(aa1a154b70452fc47b4e9900f326a1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f1bf266db5889bae86c11abe2dacdc') in 0.014601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.024647 seconds.
+  path: Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife/Minifantasy_Wildlife_Assets
+  artifactKey: Guid(96349ae5a10f52746acd264d1165d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife/Minifantasy_Wildlife_Assets using Guid(96349ae5a10f52746acd264d1165d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a51a5ec8a0f82896a7f88ddfad8d706') in 0.005861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.752526 seconds.
+  path: Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife/Minifantasy_Wildlife
+  artifactKey: Guid(96349ae5a10f52746acd264d1165d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Wildlife/Minifantasy_Wildlife/Minifantasy_Wildlife using Guid(96349ae5a10f52746acd264d1165d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19053cd703bae0a3afdfa4e1b71661c') in 0.002284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.370305 seconds.
+  path: Assets/40. Resources/Minifantasy_Mounts/Mounts
+  artifactKey: Guid(b0be313ba8d0ea14e9860bb3cb3d824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Mounts/Mounts using Guid(b0be313ba8d0ea14e9860bb3cb3d824b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9daabc06fc53d629f32086dd9a887ef') in 0.006954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.801038 seconds.
+  path: Assets/40. Resources/Minifantasy_Mounts/Mounts/Minifantasy_Mounts
+  artifactKey: Guid(009e90a38572e0c43b0371b7ea8382db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Mounts/Mounts/Minifantasy_Mounts using Guid(009e90a38572e0c43b0371b7ea8382db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdffe41936201e17fbe4b8be668d58ff') in 0.005383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.324417 seconds.
+  path: Assets/40. Resources/Minifantasy_Heroes/Heroes II/Minifantasy_True_Heroes
+  artifactKey: Guid(ed2b9ed9e84ef9441a326cf31180437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Heroes/Heroes II/Minifantasy_True_Heroes using Guid(ed2b9ed9e84ef9441a326cf31180437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c919c4793bae2cb54e948e727f7cbc') in 0.006700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.037632 seconds.
+  path: Assets/40. Resources/Minifantasy_Builders/Builders
+  artifactKey: Guid(97b2c5a8bff5dd941894b5018ee730a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Builders/Builders using Guid(97b2c5a8bff5dd941894b5018ee730a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da294188b3bfbd9193c099af9d0873') in 0.007159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.617478 seconds.
+  path: Assets/40. Resources/Minifantasy_Builders/Builders/Minifantasy_Builders_Assets
+  artifactKey: Guid(c5c7db5d013cc324aa79d23271dbf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Builders/Builders/Minifantasy_Builders_Assets using Guid(c5c7db5d013cc324aa79d23271dbf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a020be13f9985f8391ef3c556492ea4a') in 0.006667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.644202 seconds.
+  path: Assets/40. Resources/Minifantasy_Builders/Builders/Minifantasy_Builders
+  artifactKey: Guid(c5c7db5d013cc324aa79d23271dbf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Minifantasy_Builders/Builders/Minifantasy_Builders using Guid(c5c7db5d013cc324aa79d23271dbf5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db23f71901a38944c0d36ac43e1fd7b') in 0.022877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.617445 seconds.
+  path: Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial
+  artifactKey: Guid(350117d84ccc3b649b05dbe1887e18cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial using Guid(350117d84ccc3b649b05dbe1887e18cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e3c64162e9d27dfb23e94a272fccf') in 0.006722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.603228 seconds.
+  path: Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial/ForgottenPlains
+  artifactKey: Guid(4eeca17e35880864580c16f7845bc4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial/ForgottenPlains using Guid(4eeca17e35880864580c16f7845bc4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1929c6dce3844390ebbc599094b48d') in 0.005637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.200369 seconds.
+  path: Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial/_Legacy
+  artifactKey: Guid(c158ed646550b5b42a32accbc2d806f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/ForgottenPlains/ForgottenPlains_v3.5_Commercial/_Legacy using Guid(c158ed646550b5b42a32accbc2d806f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd713f40f9427c817499f1120ca73ef81') in 0.012680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.264382 seconds.
+  path: Assets/40. Resources/DwarvenKingdom/Minifantasy_DwarvenKingdom
+  artifactKey: Guid(cf28b41b6ab0e90439c92d66aafc7b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/DwarvenKingdom/Minifantasy_DwarvenKingdom using Guid(cf28b41b6ab0e90439c92d66aafc7b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec74b91f7e68c70de11174b6c7074b') in 0.006197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.461337 seconds.
+  path: Assets/40. Resources/Creatures/Creatures_v3.0/Creatures
+  artifactKey: Guid(cf2d56a10d5bd114f8ddf56ad25c96dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Creatures/Creatures_v3.0/Creatures using Guid(cf2d56a10d5bd114f8ddf56ad25c96dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255df0f71d1e0dfd7256989c206a9304') in 0.008033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.621432 seconds.
+  path: Assets/40. Resources/Creatures/Creatures
+  artifactKey: Guid(b7f87af0d2fb5e942856560d7e0917d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40. Resources/Creatures/Creatures using Guid(b7f87af0d2fb5e942856560d7e0917d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb9d002e0ef655bd70f2e5bf8df370c') in 0.002566 seconds 
